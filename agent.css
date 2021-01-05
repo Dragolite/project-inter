@@ -86,7 +86,7 @@ header{
 i{
     position: absolute;
     font-size: 1.5em;
-    right:5px;
+    right:15px;
     text-align: center;
     
 }
@@ -98,7 +98,7 @@ i:hover{
     position: absolute;
     font-size: 0.8em;
     top:20px;
-    right:5px;
+    right:15px;
     text-align: center;
     
 }
