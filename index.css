@@ -45,34 +45,34 @@ form button{
     z-index: 0;
     width: 100%;
     text-align: center;
-            font-weight: 400;
-            color: white;
-            text-transform: uppercase;
+    font-weight: 400;
+    color: white;
+    
 }
 @media only screen and (max-width: 992px) {
     .back{
     position: absolute;
     font-size: 12vw;
-    top: 110px;
+    top: 160px;
     z-index: 0;
     width: 100%;
     text-align: center;
     font-weight: 400;
     color: white;
-    text-transform: uppercase;
+    
     }
   } 
   @media only screen and (max-width: 762px) {
     .back{
     position: absolute;
     font-size: 15vw;
-    top: 130px;
+    top: 160px;
     z-index: 0;
     width: 100%;
     text-align: center;
     font-weight: 400;
     color: white;
-    text-transform: uppercase;
+    
   } 
 }
   @media only screen and (max-width: 600px) {
@@ -85,7 +85,6 @@ form button{
     text-align: center;
     font-weight: 400;
     color: white;
-    text-transform: uppercase;
   } 
 }
 .footer{

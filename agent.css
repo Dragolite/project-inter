@@ -22,6 +22,7 @@ header{
     min-height: 100%;
     height: fit-content;
 }
+
 .main .sidebar
 {  
     left: 0;
@@ -109,11 +110,18 @@ i:hover{
 div button{
     outline: none;
 }
-
+.list-group-item:focus{
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
 .list-group-item:hover{
     color:#43C6AC;
     border-radius: 30px; 
     transition: 0.2s;
+    border: none;
+    outline: none;
+    box-shadow: none;
 }
 
 .list-group-item{
@@ -125,6 +133,9 @@ border-radius: 10px;
     font-size: 20px;
     text-align: left;
     text-transform: capitalize;
+    border: none;
+    outline: none;
+    box-shadow: none;
 }
 .insidecollapse{
     background: #43C6AC;  /* fallback for old browsers */
@@ -135,6 +146,9 @@ border-radius: 10px;
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 7.0px );
     -webkit-backdrop-filter: blur( 7.0px );
+    border: none;
+    outline: none;
+    box-shadow: none;
 }
 
 .navbar-custom { 
@@ -147,6 +161,9 @@ border-radius: 10px;
 } 
 
 .footer{
+    background: #43C6AC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F8FFAE, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F8FFAE, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     width: 100%;
     padding: 10px;
     text-transform: capitalize;
@@ -158,5 +175,7 @@ border-radius: 10px;
       height: 300px;
       border-radius: 7px;
   }
+
+  
     
 
