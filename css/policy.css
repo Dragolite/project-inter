@@ -20,6 +20,22 @@ section{
     padding: 20px;
     line-height: 1.7;
 }
+@media only screen and (max-width: 600px) {
+    section{
+        width: 100%;
+        margin: 20px auto;
+        background-color: #43C6AC;
+        background: #ffffff00;
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 10.5px );
+        -webkit-backdrop-filter: blur( 5.5px );
+        border-radius: 10px;
+        padding: 20px;
+        line-height: 1.7;
+    }
+}
+
+
 img{
     width: 100%;
     padding: 10px;
