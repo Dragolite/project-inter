@@ -1,0 +1,46 @@
+body,html{
+    margin: 0;
+    height: 100%;
+    background: #43C6AC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F8FFAE, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F8FFAE, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.jumbotron{
+    background-image: url("https://cdn.dribbble.com/users/1803663/screenshots/14542284/media/4b27534195283b78e620d83c5bd3dd41.jpg");
+    min-height: 100vh;
+    height: fit-content;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    margin: 0;
+}
+.injumbo{
+    color: white;
+    background: rgba( 255, 255, 255, 0.00 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 10.5px );
+    -webkit-backdrop-filter: blur( 5.5px );
+    border-radius: 20px;
+    width: fit-content;
+    padding: 20px 20px;
+    height: 80%;
+}
+  /* additionanl styling for scroll bar and hr */
+
+  .hrstyle {
+      margin: 50px;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), white, rgba(0, 0, 0, 0));
+}
+body::-webkit-scrollbar {
+    width: 10px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #43C6AC;        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color:#F8FFAE;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid #43C6AC;  /* creates padding around scroll thumb */
+  }

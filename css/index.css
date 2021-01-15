@@ -1,0 +1,94 @@
+
+html,body{
+ 
+    margin: 0%;
+    height: 100vh;
+    background: #43C6AC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F8FFAE, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F8FFAE, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.page{
+  height: 100vh;
+}
+.formbody{
+    position: relative;
+    z-index: 60;
+    margin: 0 auto;
+    margin-top: 120px;
+    padding: 20px;
+    width: 40%;
+    min-width: 300px;
+    background: rgba( 255, 255, 255, 0.00 );
+    background: rgba( 255, 255, 255, 0.00 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5.5px );
+    -webkit-backdrop-filter: blur( 5.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    background: rgba( 255, 255, 255, 0.00 );
+
+}
+form button{
+    color: black;
+    margin: 3px;
+}
+
+.links{
+    display: flex;
+}
+
+.back{
+    position: absolute;
+    font-size: 10vw;
+    top: 160px;
+    z-index: 0;
+    width: 100%;
+    text-align: center;
+    font-weight: 400;
+    color: white;
+    
+}
+@media only screen and (max-width: 992px) {
+    .back{
+    position: absolute;
+    font-size: 12vw;
+    top: 160px;
+    z-index: 0;
+    width: 100%;
+    text-align: center;
+    font-weight: 400;
+    color: white;
+    
+    }
+  } 
+  @media only screen and (max-width: 762px) {
+    .back{
+    position: absolute;
+    font-size: 15vw;
+    top: 160px;
+    z-index: 0;
+    width: 100%;
+    text-align: center;
+    font-weight: 400;
+    color: white;
+    
+  } 
+}
+  @media only screen and (max-width: 600px) {
+    .back{
+    position: absolute;
+    font-size: 15vw;
+    top: 180px;
+    z-index: 0;
+    width: 100%;
+    text-align: center;
+    font-weight: 400;
+    color: white;
+  } 
+}
+.footer{
+  width: 100%;
+  padding: 10px;
+  text-transform: capitalize;
+}
