@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="agent.css">
+    <link rel="stylesheet" href="css/agent.css">
     <script src="https://kit.fontawesome.com/6ee99f5755.js" crossorigin="anonymous"></script>
 
 </head>
@@ -16,7 +16,7 @@
           <!-- sidebar toggler -->
             <span class="navbar-toggler-icon mr-3 sidebartoggler"></span>
           <!-- company logo -->
-            <a class="navbar-brand" href="#">RCDBank Ltd</a>
+            <a class="navbar-brand" href="landing.html">RCDBank Ltd</a>
 
             <button class="navbar-toggler" style="outline: none;box-shadow: none;" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -35,12 +35,22 @@
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" href="#">Apply for debit/credit card</a>
                     <a class="dropdown-item" href="#">Loans</a>
+                    <a class="dropdown-item" href="#">Insurance</a>
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item" href="#">Online Tax/Payment/Recipt</a>
                   </div>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">FAQs</a>
+                  <a class="nav-link" href="about.html">About us</a>
+                </li>
+                <li class="nav-item faqbtn">
+                  <a class="nav-link" href="faq.html">FAQs</a>
+                </li>
+                <li class="nav-item faqbtn">
+                  <a class="nav-link" href="Policy.html">policies</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="tandc.html">T&C</a>
                 </li>
               </ul>
               <form class="form-inline my-2 my-lg-0">
@@ -55,8 +65,9 @@
         <div class="sidebar hidden">
             <!-- card -->
             <div>
-              <img src="https://images.newindianexpress.com/uploads/user/imagelibrary/2019/3/7/w900X450/Take_in_the_Scenery.jpg" alt="">
-              <div style=" height: 30px; text-align: center;">Welcome User</div>
+              <img src="https://cdn.dribbble.com/users/1803663/screenshots/14762933/media/d22e6a9bb1e4ec8963842cff3907e8be.jpg" alt="">
+              <div style=" margin-top: 20px; height: 30px; text-align: center;">Welcome <span> User</span></div>
+              <hr class="hrstyle">
             </div>
             <div class="list-group list-group-flush">
               <!-- sidebar items -->
@@ -81,8 +92,8 @@
                 </div>
                 
         </div>
-
-        <div class="content">
+        <main data-router-wrapper> 
+          <div data-router-view="content" class="content">
             <!-- content -->
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nibh felis, feugiat accumsan nisi vitae, malesuada euismod nunc. Vivamus ultrices magna eu pellentesque tristique. Sed sagittis augue tortor, vel pellentesque lorem facilisis ut. Suspendisse interdum eget nunc vitae egestas. Curabitur ipsum tellus, consectetur ut suscipit sit amet, tristique ac velit. Aliquam fringilla urna erat, eu semper dolor pellentesque et. Nullam pellentesque lectus dolor. Sed et ornare quam. Nam ac convallis mauris, nec maximus lectus.</p>
 
@@ -94,6 +105,8 @@
                 
                 <p>Maecenas metus odio, blandit fermentum molestie eu, bibendum et turpis. Sed suscipit sapien et nisi dignissim, porta mattis lorem feugiat. Etiam venenatis nunc venenatis purus aliquam imperdiet. Vestibulum eu neque quam. Nullam ligula diam, posuere eu justo sed, malesuada elementum sapien. Donec fermentum posuere tristique. Cras non ipsum eget mi pulvinar viverra rhoncus sed orci. Nulla sit amet leo porttitor, fringilla diam a, pulvinar lectus. Mauris a lobortis risus. Morbi imperdiet porttitor risus in fringilla. Proin eget nunc in libero fermentum facilisis a ac eros. Maecenas ultricies eros ac auctor imperdiet. Maecenas malesuada nisl vitae risus porta faucibus.</p> 
         </div>
+        </main>
+      
     </div>
 
     <footer class="footer ">
@@ -101,9 +114,9 @@
     </footer>
 
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<script src="agent.js"></script>
+<script src="js/navbar.js"></script>
 </body>
 </html>
